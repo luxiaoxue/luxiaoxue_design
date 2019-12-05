@@ -1,0 +1,333 @@
+/*全局样式*/
+*{padding:0;margin:0;}
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:0;}
+img,input{border:none;vertical-align:middle;}
+body{font-family:Tahoma,Arial,Helvetica,"宋体";font-size:12px;text-align:center;background:#FFF;color:#000;}
+html{overflow-y:scroll;}
+ul,ol{list-style-type:none;}
+th,td,input{font-size:12px;}
+input{outline:none;border:none;box-shadow:none;}
+h3{font-size:14px;}
+button{border:none;cursor:pointer;font-size:12px;background-color:transparent;}
+select{border-width:1px;_zoom:1;border-style:solid;padding-top:2px;font-size:12px;}
+.clear{clear:both;font-size:1px;height:0;visibility:hidden;line-height:0;}
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+a:link,a:visited{text-decoration:none;color:#333;}
+a:hover,a:active{text-decoration:underline;color:#f60;}
+body {
+    letter-spacing: 1px;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.wrap{
+	width:100%;
+	background-color: #002331;
+	padding-bottom: 100px;
+}
+.container{
+	width:1210px;
+	margin:0 auto;
+	padding-top:100px;
+	height:auto;
+}
+.head{
+	width:100%;
+	height:64px;
+	background: #00202b;
+	line-height:64px;
+}
+.container_head{
+	width:1210px;
+	margin:0 auto;
+	height:64px;
+}
+.head .left{
+	float: left;
+	color:#fff;
+}
+.head .right{
+	float: right;
+	color:#fff;
+}
+.head .right a{
+	padding: 0 20px;
+    height: 66px;
+    display: inline-block;
+    text-decoration:none;
+    color:#fff;
+}
+.head .right .bg{
+	color: white;
+    font-weight: bold;
+    background-color: #FD3D50;
+}
+.head .right .hoverbg:hover{
+	background-color: #fff;
+	color: #000;
+}
+.list1{
+	width:100%;
+	height:255px;
+	
+}
+.aboutlist1{
+	width:100%;
+	height:605px;
+}
+.aboutlist2{
+	width:100%;
+	height:457px;
+}
+.aboutlist3{
+	width:100%;
+	height:380px;
+	background: #fff;
+}
+.list2{
+	width:100%;
+	height:255px;
+	margin-top:5px;
+	overflow: hidden;
+}
+.list2 img{
+	width:100%;
+	height:auto;
+	margin-top:-78px
+}
+.list3{
+	width:100%;
+	height:250px;
+	margin-top:5px;
+	
+}
+.list4{
+	width:100%;
+	height:500px;
+	margin-top:5px;
+	
+}
+.list3 .list{
+	width:33%;
+	height:100%;
+	background: #fff;
+	float: left;
+	overflow: hidden;
+}
+
+
+.list3 .list img{
+	width: 126%;
+    height: auto;
+    margin-top: -65px;
+    margin-left: -51px;
+}
+.list3 .list:nth-of-type(2),.list3 .list:nth-of-type(3){
+	margin-left:5px;
+}
+.list1 .list1_left{
+	width:33%;
+	background:#ccc;
+	height: 100%;
+	float: left;
+	background:url("../images/IMG_4565.JPG") no-repeat;
+	background-size: 100% auto;
+	background-position:bottom center;
+}
+/*.list1 .list1_left img{
+	width:100%;
+	height: auto;
+}*/
+.list1 .list1_right{
+	width:67%;
+	height: 100%;
+	float: left;
+}
+.list1 .list1_right h1{
+	font-family: Roboto;
+    font-weight: 100;
+    font-style: ;
+    font-size: 30px;
+    line-height: 50px;
+    color: #fff;
+    text-align: left;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.aboutlist1 h1{
+	font-family: Roboto;
+    font-weight: 100;
+    font-style: ;
+    font-size: 30px;
+    line-height: 50px;
+    color: #222222;
+}
+.aboutlist1 h2{
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: ;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222;
+    margin-top:20px;
+}
+.list1 .list1_right h2{
+	font-family: Roboto;
+    font-weight: 400;
+	font-size: 15px;
+	color: #50b7e0 !important;
+	text-align: left;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.list1 .list1_right a{
+	border-radius: 60px;
+    font-size: 16px;
+    padding: 8px 25px 8px 25px;
+    border: solid #2fa4f1 2px;
+    text-decoration: none;
+    float: right;
+    color: white;
+    background-color: #2fa4f1;
+    /*margin: 10px 0;*/
+    margin: 38px 154px;
+}
+.list1 .list1_right a:hover {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+.list2 .list2_left{
+	width:66.4%;
+	height: 100%;
+	background:#ccc;
+	float: left;
+}
+.list2 .list2_right{
+	width:32.9%;
+	height: 100%;
+	background:#d7d7d7;
+	float: left;
+	margin-left:5px;
+}
+.list4 .list4_left{
+	width:33%;
+	height: 240px;
+	background:#ccc;
+	float: left;
+}
+.list4 .list4_right{
+	width:66.4%;
+	height: 500px;
+	background:#d7d7d7;
+	float: left;
+	margin-left:5px;
+}
+.bottom{
+	padding-top: 100px;
+	color:#fff;
+	text-align: center;
+}
+.aboutlist1 .aboutlist1_left,.aboutlist1 .aboutlist1_right,.aboutlist2 .aboutlist2_left,.aboutlist2 .aboutlist2_right{
+	width:50%;
+	height:100%;
+	float: left;
+}
+.aboutlist1 .aboutlist1_left{
+	background: #ccc;
+}
+.aboutlist1 .aboutlist1_left img{
+	width:100%;
+	height:auto;
+}
+.aboutlist1 .aboutlist1_right{
+	background: #fff;
+}
+.aboutlist1 .aboutlist1_right .cot{
+	width: 70%;
+    height: 263px;
+    text-align: left;
+    margin: 150px auto;
+}
+.aboutlist2 .aboutlist2_left{
+	background: #fff;
+}
+.aboutlist2 .aboutlist2_left .list_txt{
+	width: 80%;
+    text-align: left;
+    margin: 40px;
+}
+.aboutlist2 .aboutlist2_left .list_txt .icon{
+	width: 50px;
+    height: 50px;
+    background: #ccc;
+    float: left;
+}
+.aboutlist2 .aboutlist2_left .list_txt .text{
+	margin-left:80px;
+}
+.aboutlist2 .aboutlist2_left .list_txt .text h5{
+	font-family: Roboto;
+    font-weight: 700;
+    font-style: ;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222;
+}
+.aboutlist2 .aboutlist2_left .list_txt .text h6{
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: ;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222;
+    padding-top:10px;
+}
+.aboutlist2 .aboutlist2_right{
+	background: #000;
+}
+.aboutlist3 h5{
+	font-family: Roboto;
+    font-weight: 100;
+    font-style: ;
+    font-size: 30px;
+    line-height: 50px;
+    color: #222222;
+    padding-top: 45px;
+}
+.aboutlist3 h6{
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: ;
+    font-size: 16px;
+    line-height: 24px;
+    color: #507D8F !important;
+    padding-top: 5px;
+}
+.aboutlist3 .aboutlist3_txt{
+	width: 80%;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: ;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222;
+    padding-top: 35px;
+}
+.aboutlist3 .aboutlist3_left,.aboutlist3 .aboutlist3_right{
+	width:48%;
+	float: left;
+	margin: 0 auto;
+	text-align: left;
+}
+.aboutlist3 .aboutlist3_right{
+	float: right;
+}
