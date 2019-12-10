@@ -33,6 +33,37 @@ html,body{
 	padding-top:100px;
 	height:auto;
 }
+.oi_legend {
+    font-family: Roboto;
+    font-weight: 100;
+    font-style: ;
+    font-size: 30px;
+    line-height: 50px;
+    color: #222222;
+}
+.top1{
+	width:100%;
+	height:280px;
+	background:#fff;
+}
+.top1 .top1left{
+	float: left;
+	width:50%;
+	height: 280px;
+}
+.top1 .top1right{
+	float: right;
+	width:50%;
+	height: 280px;
+}
+.top2{
+	width:100%;
+	height:806px;
+}
+.top2 img{
+	width:100%;
+	height:806px;
+}
 .head{
 	width:100%;
 	height:64px;
@@ -124,6 +155,20 @@ html,body{
     margin-top: -65px;
     margin-left: -51px;
 }
+.list3 .list a{
+	width:100%;
+	height:100%;
+	display: inline-block;
+}
+.list3 .list .img5{
+	width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: -37px;
+}
+.list3 .list .img6{
+	margin-top:-20px;
+}
 .list3 .list:nth-of-type(2),.list3 .list:nth-of-type(3){
 	margin-left:5px;
 }
@@ -144,6 +189,7 @@ html,body{
 	width:67%;
 	height: 100%;
 	float: left;
+
 }
 .list1 .list1_right h1{
 	font-family: Roboto;
@@ -216,6 +262,8 @@ html,body{
 	background:#d7d7d7;
 	float: left;
 	margin-left:5px;
+
+
 }
 .list4 .list4_left{
 	width:33%;
@@ -229,6 +277,17 @@ html,body{
 	background:#d7d7d7;
 	float: left;
 	margin-left:5px;
+}
+.list4 a{
+	width:100%;
+	height:100%;
+	display: inline-block;
+	overflow: hidden;
+}
+.list4 .list4_right img,.list4 .list4_left img{
+	width:100%;
+	height:auto;
+	display: inline-block;
 }
 .bottom{
 	padding-top: 100px;
