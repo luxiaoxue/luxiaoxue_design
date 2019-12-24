@@ -579,4 +579,13 @@ html,body{
 	#gif2{
 		width: 130% !important;
 	}
+	.aboutlist1 .aboutlist1_left {
+    	background: #f6f6f6;
+	}
+	.aboutlist1 .aboutlist1_left img {
+	    width: 100%;
+	    height: auto;
+	    text-align: center;
+	    margin: 50px auto;
+	}
 }
