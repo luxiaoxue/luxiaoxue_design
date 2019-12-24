@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Luxiaoxue | Designer</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
+<style type="text/css">
+	.wrap{
+		width:100%;
+		height:4500px;
+	}
+</style>
+<body>
+	<div class="wrap" style="background: url(images/bg.png) no-repeat;background-size:100% 100%;">
+		<!-- <div class="head">
+			<div class="container_head">
+				<div class="left" style="letter-spacing: 10px;">LUXIAOXUE</div>
+				<div class="right"><a class="bg">主页</a><a class="hoverbg" href="about_me.html">关于</a><a class="hoverbg" href="design-process.html">设计过程</a><a class="hoverbg" href="my-portfolio.html">作品集</a><a class="hoverbg" href="contact-me.html">联系</a></div>
+			</div>
+		</div> -->
+		
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+		
+			$("#list1_left").hover(function(){
+				$(this).find("b").show();
+			},function(){
+				$(this).find("b").hide();
+			})
+			$("#list2_left,#list2_right,#list3 .list a,#list4 .list4_left a,#list4 .list4_right a").hover(function(){
+				$(this).find("b").show();
+			},function(){
+				$(this).find("b").hide();
+			})
+			
+		})
+
+	</script>
+</body>
+</html>

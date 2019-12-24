@@ -40,6 +40,20 @@ html,body{
     font-size: 30px;
     line-height: 50px;
     color: #222222;
+    width:80%;
+    margin: 90px auto;
+    text-align: left;
+}
+.top1right .p1{
+	width: 71%;
+    margin: 80px auto;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: ;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222;
+    text-align: left;
 }
 .top1{
 	width:100%;
@@ -63,6 +77,12 @@ html,body{
 .top2 img{
 	width:100%;
 	height:806px;
+}
+.top3{
+	width:100%;
+	height: 1020px;
+	background:#fff;
+	margin-top:20px;
 }
 .head{
 	width:100%;
@@ -402,7 +422,7 @@ html,body{
 .aboutlist2 .aboutlist2_left .list_txt .icon{
 	width: 50px;
     height: 50px;
-    background: #ccc;
+    margin-top: 12px;
     float: left;
 }
 .aboutlist2 .aboutlist2_left .list_txt .text{
@@ -426,7 +446,7 @@ html,body{
     padding-top:10px;
 }
 .aboutlist2 .aboutlist2_right{
-	background: #000;
+	background: #022e3f;
 }
 .aboutlist3 h5{
 	font-family: Roboto;
@@ -465,4 +485,76 @@ html,body{
 }
 .aboutlist3 .aboutlist3_right{
 	float: right;
+}
+.top3 h1{
+	font-family: Roboto;
+    font-weight: 100;
+    font-style: ;
+    font-size: 30px;
+    line-height: 50px;
+    color: #222222;
+    padding-top: 50px;
+}
+.top3 h6{
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: ;
+    font-size: 16px;
+    line-height: 24px;
+    color: #507D8F !important;
+    padding-top: 10px;
+
+}
+.top3main{
+	width: 85%;
+	height:100%;
+	margin:0 auto;
+}
+.top3main img{
+	width:50px;
+	height: 50px;
+	display: inline-block;
+}
+.top3main .top3left{
+	float:left;
+	width:50%;
+}
+.top3main .top3right{
+	float:left;
+	width:50%;
+}
+.top3main .top3list{
+	position: relative;
+	margin-top:40px;
+
+}
+.top3main .top3list img{
+	position: absolute;
+	left: 40px;
+    top: 20px;
+
+}
+.top3main .top3list h6{
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: ;
+    font-size: 16px;
+    line-height: 24px;
+    color: #507D8F !important;
+    width:100%;
+    text-align: left;
+    margin-left:110px;
+}
+.top3main .top3list p{
+	font-family: Roboto;
+    font-weight: 400;
+    font-style: ;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222;
+    text-align: left;
+    margin-left:130px;
+}
+.top3main .top3list p:nth-of-type(1){
+	margin-top:15px;
 }
